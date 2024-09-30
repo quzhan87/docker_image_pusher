@@ -1,8 +1,20 @@
 nginx
 edgexfoundry/app-service-configurable:3.1.1
+hashicorp/consul:1.16.6
+edgexfoundry/core-command:3.1.1
+edgexfoundry/core-common-config-bootstrapper:3.1.1
+edgexfoundry/core-data:3.1.1
+edgexfoundry/core-metadata:3.1.1
+redis:7.0.15-alpine
+edgexfoundry/device-rest:3.1.1
+edgexfoundry/device-virtual:3.1.1
+lfedge/ekuiper:1.11.5-alpine
+edgexfoundry/support-notifications:3.1.1
+edgexfoundry/support-scheduler:3.1.1
+edgexfoundry/edgex-ui:3.1.0
 
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
